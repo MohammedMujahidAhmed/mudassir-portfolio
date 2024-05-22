@@ -43,18 +43,18 @@ const HeroSection = () => {
   return (
     <div className="hero">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center max-w-[1200px] m-auto">
-        <div className="wrapper h-[100vh]">
+        <div className="wrapper h-[60%] justify-center items-center md:items-start md:p-2 md:justify-normal md:right-height">
           <motion.div
-            className="textContainer"
+            className="textContainer gap-[10px] items-center justify-center md:items-start"
             variants={textVariants}
             initial="initial"
             animate="animate"
           >
-            <motion.h2 variants={textVariants} className="text-2xl md:text-3xl " >MOHAMMED MUDASSIR</motion.h2>
-            <motion.h1 variants={textVariants} className="text-4xl md:text-6xl">
+            <motion.h2 variants={textVariants} className="text-2xl md:text-3xl text-center md:text-left" >MOHAMMED MUDASSIR</motion.h2>
+            <motion.h1 variants={textVariants} className="text-4xl md:text-6xl text-center md:text-left">
               GRAPHIC DESIGNER and<br></br> UI designer
             </motion.h1>
-            <motion.div variants={textVariants} className="buttons flex gap-1 md:gap-3 flex-col md:flex-row">
+            <motion.div variants={textVariants} className="buttons flex gap-1 md:gap-3 flex-row">
               <motion.button variants={textVariants} className="p-2 md:p-4 z-30">
                 See the Latest Works
               </motion.button>
@@ -77,8 +77,8 @@ const HeroSection = () => {
         >
           Graphic Designer And MultiMedia
         </motion.div>
-        <div className="opacity-1 z-30 p-8" >
-          <img src={myphoto} alt="myPhotoHere"  className=" bg-photo border rounded-2xl" />
+        <div className="opacity-1 z-30 p-8 h-[50%] md:h-fit" >
+          <img src={myphoto} alt="myPhotoHere" loading="lazy"  className=" bg-photo border rounded-2xl w-[200px] md:w-fit md:object-cover" />
         </div>
       </div>
     </div>

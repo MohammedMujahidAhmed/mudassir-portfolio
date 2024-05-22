@@ -5,9 +5,9 @@ import { motion } from 'framer-motion'
 
 export const NavBar = () => {
   return (
-    <section className='h-[50px]'>
+    <div className='h-[50px] overflow-hidden'>
         <SideBar/>
-        <div className='max-w-[1366px] m-auto sm:flex-row flex flex-row-reverse items-center justify-between h-[100%] p-2 pr-4'>
+        <div className='max-w-[1200px] m-auto sm:flex-row flex flex-row-reverse items-center justify-between h-[100%] p-2 pr-4'>
 
           <motion.span
             initial={{ opacity: 0, scale: 0.5 }}
@@ -23,6 +23,6 @@ export const NavBar = () => {
               <SocialIcon style={{ height: 30, width: 30 }} href='#' network='linkedin' /> 
           </div>
         </div>
-    </section>
+    </div>
   )
 }
