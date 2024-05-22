@@ -43,7 +43,7 @@ const HeroSection = () => {
   return (
     <div className="hero">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center max-w-[1200px] m-auto">
-        <div className="wrapper">
+        <div className="wrapper h-[100vh]">
           <motion.div
             className="textContainer"
             variants={textVariants}
