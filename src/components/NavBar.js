@@ -20,7 +20,7 @@ export const NavBar = () => {
           <div className='flex gap-5'>
               <SocialIcon style={{ height: 30, width: 30 }} href='#' network='facebook' /> 
               <SocialIcon style={{ height: 30, width: 30 }} href='#' network='instagram' /> 
-              <SocialIcon style={{ height: 30, width: 30 }} href='#' network='linkedin' /> 
+              <SocialIcon style={{ height: 30, width: 30 }} target='_blank' href='https://www.linkedin.com/in/mohd-mudassir-a80172291/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' network='linkedin' /> 
           </div>
         </div>
     </div>

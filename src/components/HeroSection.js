@@ -41,7 +41,7 @@ const sliderVariants = {
 
 const HeroSection = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="Homepage">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center max-w-[1200px] m-auto">
         <div className="wrapper h-[60%] justify-center items-center md:items-start md:p-2 md:justify-normal md:right-height">
           <motion.div
